@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- meta settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>Memory Game</title>
+
+    <!-- javascript -->
+    <script src="js/mainJS.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/game.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/mainCSS.css">
+
+    <!-- title icon -->
+    <link rel="shortcut icon" href="cards/000.png" type="image/x-icon">
+</head>
+
+<body onload="start();">
+    
+    <!-- header -->
+    <header>
+        <div class="paddup">
+            Cards Found:
+            <span id="limitOutput"></span>/<span id="scoreOutput">0</span>,
+            Clicks:
+            <span id="clicks">0</span>
+        </div>
+
+        <div class="paddup">
+            <input onchange="changeLimit()" type="range" id="range" min="4" max="24">
+        </div>
+
+        <div class="paddup">
+            <input type="button" value="Play" id="play" onclick="play();">
+        </div>
+
+        <div id="win"></div>
+    </header>
+
+    <!-- main -->
+    <main id="main"></main>
+
+    <!-- footer -->
+    <footer>
+        <a href="https://" target="_blank">
+            <img src="images/git.png" alt="git project"></a>
+        <a href="https://www." target="_blank">
+            <img src="images/youtube.png" alt="git youtube"></a>
+    </footer>
+
+</body>
+
+</html>
