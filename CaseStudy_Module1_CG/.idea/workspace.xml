@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb78545c-d30b-4a15-a1f8-7744aa38bdb2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/CaseStudy_Modul2_CG.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/src/controller/ManagerMedicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/src/controller/MangerAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/src/io/ReaderAndWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/src/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/src/model/Medicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/src/view/LogIn.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Modul2_CG/src/view/LogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CaseStudy_Module1_CG.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/CaseStudy_Module2_CG.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/medicine.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/controllers/AccountManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/io/ReaderAndWrite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/out/production/CaseStudy_Module2_CG/models/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/controllers/AccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/controllers/MedicineManagerAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/crawl/CrawlMedicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/io/ReaderAndWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/models/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/models/Medicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/CreateMedicine.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/CreateMedicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/LogIn.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/LogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/MedicineAdmin.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/MedicineAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/MedicineUser.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/MedicineUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/SignUp.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/VerifyByEmail.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_CG/src/views/VerifyByEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/CaseStudy_Module2_Hotel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/src/CS/Hotel/view/LoginForm.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CaseStudy_Module2_Hotel/src/CS/Hotel/view/LoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/DEMO_CS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/src/gui/QuanLyBaoHiemGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/src/images/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/src/images/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/src/images/logoCongTy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/src/launch/QuanLyBaoHiem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/src/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/src/model/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/src/model/IncomeProtection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/src/model/Insured.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/src/model/InsuredCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DEMO_CS/src/model/InsuredHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/DMCG.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/account.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/medicine.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/controllers/AccountManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/controllers/MedicineManagerAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/crawl/CrawlMedicine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/io/ReaderAndWrite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/views/LogIn$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/views/MedicineAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/views/MedicineUser$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/views/MedicineUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/views/SignUp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/views/SignUp$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/out/production/DMCG/views/SignUp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/controllers/AccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/controllers/MedicineManagerAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/crawl/CrawlMedicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/io/ReaderAndWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/models/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/models/Medicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/sort/SortByNameASC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/sort/SortByNameDSC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/sort/SortByPriceAscending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/sort/SortByPriceDescending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/sort/SortByTypeASC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/sort/SortByTypeDSC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/validates/ValidateMedicine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/views/LogIn.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/views/LogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/views/MedicineAdmin.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/views/MedicineAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/views/MedicineUser.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/views/MedicineUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/views/SignUp.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DMCG/src/views/SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory-cards-js-game/css/mainCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/memory-cards-js-game/css/mainCSS.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2B8rF0bSoMPEheicoFXwq10eNMk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/mnt/sda2/JetBrain-CodeGym/CodeGym_AllCaseStudy/CaseStudy_Module1_CG",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb78545c-d30b-4a15-a1f8-7744aa38bdb2" name="Changes" comment="" />
+      <created>1656298445790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656298445790</updated>
+      <workItem from="1656298446956" duration="320000" />
+      <workItem from="1656317237623" duration="131000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

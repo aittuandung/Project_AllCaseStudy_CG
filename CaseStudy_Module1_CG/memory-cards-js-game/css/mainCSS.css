@@ -17,7 +17,7 @@
 }
 /* body */
 body {
-    background-image: url("/cards/bkg.png");
+    background-image: url("../cards/bkg.png");
     background-size: cover;
 }
 /* header */

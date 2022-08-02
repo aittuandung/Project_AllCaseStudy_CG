@@ -1,0 +1,287 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Ch&#432;&#417;ng trình Qu&#7843;n Lý D&#432;&#7907;c Ph&#7849;m d</title>
+</head>
+
+<body>
+
+<p align="center"><font size="5">Ph&#7847;n m&#7873;m Qu&#7843;n Lý D&#432;&#7907;c Ph&#7849;m dành cho các nhà thu&#7889;c nh&#7887;.</font></p>
+<p align="center"><b>Phiên b&#7843;n demo và open source cho thành viên congdongjava.com</b></p>
+<p align="center">==========================================================</p>
+<p align="center">
+<img border="0" src="QuanLyDuocPhamCongDongJava_UI.png" width="850" height="587"></p>
+<p align="left"><b>Ch&#432;&#417;ng trình này &#273;&#432;&#7907;c JackV vi&#7871;t theo yêu c&#7847;u công vi&#7879;c c&#7911;a 
+m&#7897;t ng&#432;&#7901;i b&#7841;n, hôm nay quy&#7871;t &#273;&#7883;nh chia s&#7867; v&#7899;i các b&#7841;n &#273;&#7875; m&#7885;i ng&#432;&#7901;i có thêm m&#7897;t 
+s&#7843;n ph&#7849;m th&#7921;c t&#7871; trao &#273;&#7893;i.</b></p>
+<p align="left"><font color="#0000FF"><b>M&#7897;t m&#7909;c tiêu quan tr&#7885;ng c&#7911;a bài vi&#7871;t 
+này là giúp các b&#7841;n m&#7899;i làm quen v&#7899;i swing bi&#7871;t &#273;&#432;&#7907;c các dùng nhi&#7873;u layout l&#7891;ng 
+nhau.</b></font></p>
+<p align="left"><b>Do là s&#7843;n ph&#7849;m dùng cho nhu c&#7847;u nhà thu&#7889;c nh&#7887;, yêu c&#7847;u c&#7911;a 
+ng&#432;&#7901;i dùng &#273;&#417;n gi&#7843;n, ng&#432;&#7901;i dùng ít ki&#7871;n th&#7913;c IT, phát tri&#7875;n trong m&#7897;t th&#7901;i gian 
+ng&#7855;n nên s&#7843;n ph&#7849;m có m&#7897;t s&#7889; &#273;&#7863;c &#273;i&#7875;m riêng bi&#7879;t sau:</b></p>
+<ul>
+	<li>
+	<p align="left">Database d&#7841;ng file, l&#432;u object.</li>
+	<li>
+	<p align="left">Không có ph&#7847;n báo cáo và in &#7845;n</li>
+</ul>
+<p align="left"><b>===</b></p>
+<p align="left"><b>Phong cách thi&#7871;t k&#7871;: </b></p>
+<ul>
+	<li>
+	<p align="left">Tránh thi&#7871;t k&#7871; c&#7893; &#273;i&#7875;n (dùng nhi&#7873;u c&#7917;a s&#7893; &#273;&#7875; nh&#7853;p li&#7879;u), 
+	ph&#7847;n nh&#7853;p li&#7879;u &#273;&#432;&#7907;c phóng to thu nh&#7887; theo nhu c&#7847;u. </li>
+	<li>
+	<p align="left">Cho ng&#432;&#7901;i dùng tùy bi&#7871;n kích th&#432;&#7899;c, kích th&#432;&#7899;c &#273;&#432;&#7907;c tùy 
+	ch&#7881;nh thay &#273;&#7893;i s&#7869; &#273;&#432;&#7907;c l&#432;u l&#7841;i.</li>
+</ul>
+<p align="left"><b>===================</b></p>
+<p align="left"><b>Phân tích b&#7889; c&#7909;c ph&#7847;n m&#7873;m</b></p>
+<blockquote>
+	<p align="left"><b><u>B&#7889; c&#7909;c chính</u>:</b></p>
+	<ul>
+		<li>
+		<p align="left">C&#7917;a s&#7893; ph&#7847;n m&#7873;m khi ch&#7841;y lên s&#7869; max size &#273;&#7889;i v&#7899;i màn 
+		hình.</p></li>
+		<li>
+		<p align="left">Giao di&#7879;n chia làm 3 ph&#7847;n chính dùng Border Layout: Tên 
+		h&#7879; th&#7889;ng và nhà thu&#7889;c (PAGE_START) + N&#7897;i dung hi&#7879;n th&#7883; c&#7911;a các ch&#7913;c n&#259;ng 
+		(CENTER) + Ph&#7847;n liên h&#7879; (PAGE_END).</p></li>
+		<li>
+		<p align="left">Ph&#7847;n liên h&#7879; dùng m&#7897;t Thead làm nhi&#7879;m v&#7909; thay &#273;&#7893;i n&#7897;i 
+		dung hi&#7879;n th&#7883;.</p></li>
+	</ul>
+	<p align="left"><b><u>Ph&#7847;n n&#7897;i dung hi&#7879;n th&#7883; c&#7911;a các ch&#7913;c n&#259;ng</u>: </b></p>
+	<ul>
+		<li>
+		<p align="left"><b>panelFunction</b> n&#7857;m &#7903; v&#7883; trí center c&#7911;a b&#7889; c&#7909;c 
+		chính, ch&#7913;a 2 panel con</p></li>
+		<li>
+		<p align="left">Panel con <b>panelControl</b> ch&#7913;a m&#7897;t ToolBar g&#7891;m các 
+		nút cho các ch&#7913;c n&#259;ng.</p></li>
+		<li>
+		<p align="left">Panel con <b>panelCenter</b> dùng &#273;&#7875; ch&#7913;a n&#7897;i dung hi&#7879;n 
+		th&#7883; c&#7911;a t&#7915;ng ch&#7913;c n&#259;ng.</p></li>
+	</ul>
+	<p align="left"><b><u>B&#7889; c&#7909;c các trang có danh sách và có yêu c&#7847;u nh&#7853;p li&#7879;u</u>:</b></p>
+	<ul>
+		<li>
+		<p align="left">Khi nh&#7845;n m&#7897;t button trên ToolBar trong <b>panelControl</b> 
+		thì <b>panelCenter</b> s&#7869; hi&#7879;n th&#7883; n&#7897;i dung t&#432;&#417;ng &#7913;ng cho t&#7915;ng ch&#7913;c n&#259;ng.</p>
+		</li>
+		<li>
+		<p align="left">Các panel hi&#7879;n th&#7883; danh sách dùng BorderLayout, 
+		panelControl &#273;&#7863;t &#7903; PAGE_START, jScrollPane1 ch&#7913;a table &#273;&#7863;t &#7903; CENTER, 
+		panelRoot &#273;&#7863;t &#7903; PAGE_END</p></li>
+		<li>
+		<p align="left">panelRoot ch&#7913;a các thành ph&#7847;n t&#432;&#417;ng &#7913;ng cho ch&#7913;c n&#259;ng 
+		thêm xóa s&#7917;a record, dùng BorderLayout và chia thành 3 ph&#7847;n, LINE_START 
+		ch&#7913;a button cho vi&#7879;c thêm m&#7899;i, LINE_END ch&#7913;a button cho vi&#7879;c phóng to 
+		thu nh&#7887;, CENTER ch&#7913;a panel cho ch&#7913;c n&#259;ng hi&#7879;n th&#7883; và thêm xóa s&#7917;a 
+		record.</p></li>
+	</ul>
+	<p align="left"><b><u>B&#7889; c&#7909;c các panel cho ch&#7913;c n&#259;ng hi&#7879;n th&#7883; và thêm xóa 
+	s&#7917;a record</u>:</b></p>
+	<ul>
+		<li>
+		<p align="left">G&#7891;m 2 ph&#7847;n chính là ph&#7847;n <b>panelChonDuocPham</b> và 
+		ph&#7847;n thông tin c&#7911;a record.</p></li>
+		<li>
+		<p align="left">Ph&#7847;n thông tin c&#7911;a record bao g&#7891;m nhi&#7873;u panel &#273;&#432;&#7907;c s&#7855;p 
+		x&#7871;p trong GridLayout v&#7899;i nhi&#7873;u dòng. </p></li>
+	</ul>
+	<p align="left"><b><u>B&#7889; c&#7909;c panelChonDuocPham</u>:</b></p>
+	<p align="center">
+	<img border="0" src="QuanLyDuocPhamCongDongJava_chonDP.png" width="512" height="355"></p>
+	<ul>
+		<li>
+		<p align="left">Dùng &#273;&#7875; ch&#7885;n d&#432;&#7907;c ph&#7849;m cho các record</p></li>
+		<li>
+		<p align="left">S&#7855;p x&#7871;p v&#7899;i BorderLayout, ph&#7847;n ch&#7885;n d&#432;&#7907;c ph&#7849;m &#273;&#432;&#7907;c &#273;&#7863;t 
+		t&#7841;i CENTER, ph&#7847;n hi&#7879;n th&#7883; chú ý cho d&#432;&#7907;c ph&#7849;m &#7903; PAGE_END</p></li>
+		<li>
+		<p align="left">Khi nh&#7853;p t&#7915;ng ký t&#7921; trong tên d&#432;&#7907;c ph&#7849;m thì nó s&#7869; li&#7879;t 
+		kê các d&#432;&#7907;c ph&#7849;m mà tên có ch&#7913;a ký t&#7921; &#273;ó (không phân bi&#7879;t hoa th&#432;&#7901;ng, 
+		không phân bi&#7879;t có d&#7845;u hay không d&#7845;u)</p></li>
+		<li>
+		<p align="left">Khi click vào d&#432;&#7907;c ph&#7849;m &#273;&#432;&#7907;c li&#7879;t kê, n&#7871;u có chú ý thì 
+		ph&#7847;n chú ý s&#7869; hi&#7879;n lên, click vào n&#7897;i dung chú ý s&#7869; hi&#7879;n m&#7897;t c&#7917;a s&#7893; cho 
+		&#273;&#7885;c n&#7897;i dung chú ý.</p></li>
+	</ul>
+</blockquote>
+<p align="left"><b><font size="5">Phân tích ch&#7913;c n&#259;ng t&#7915;ng 
+thành ph&#7847;n:</font></b></p>
+<p align="left"><b>1. Ch&#7913;c n&#259;ng thành ph&#7847;n &#273;&#259;ng nh&#7853;p. PanelLogin</b></p>
+<p align="center">
+<img border="0" src="QuanLyDuocPhamCongDongJava_login.png" width="578" height="317"></p>
+<p align="left">
+Ph&#7847;n &#273;&#259;ng nh&#7853;p này có tính n&#259;ng ti&#7879;n l&#7907;i cho ng&#432;&#7901;i dùng</p>
+<ul>
+	<li>
+	<p align="left">Sau khi nh&#7853;p <b>Tài kho&#7843;n </b>n&#7871;u nh&#7845;n Enter thì c&#361;ng nh&#432; 
+	nh&#7845;n Tab nó s&#7869; nh&#7843;y qua ph&#7847;n nh&#7853;p m&#7853;t kh&#7849;u</li>
+	<li>
+	<p align="left">Sau khi nh&#7853;p <b>M&#7853;t kh&#7849;u </b>n&#7871;u nh&#7845;n Enter thì s&#7869; g&#7885;i 
+	ph&#432;&#417;ng th&#7913;c doClick() c&#7911;a butDangNhap &#273;&#7875; th&#7921;c hi&#7879;n &#273;&#259;ng nh&#7853;p.</li>
+	<li>
+	<p align="left">Nh&#7853;p thông tin tài kho&#7843;n sai quá 3 l&#7847;n s&#7869; exit ch&#432;&#417;ng trình.</li>
+</ul>
+<p align="left"><b>2. Ch&#7913;c n&#259;ng chung c&#7911;a thành ph&#7847;n li&#7879;t kê danh sách</b><p align="center">
+<img border="0" src="QuanLyDuocPhamCongDongJava_cauTrucDanhSach.png" width="813" height="535"><p align="left">
+Ph&#7847;n (1) là các control<ul>
+	<li>
+	<p align="left">Cho phép ch&#7885;n danh sách c&#7847;n xem, riêng danh m&#7909;c d&#432;&#7907;c ph&#7849;m 
+	không có.</p></li>
+	<li>
+	<p align="left">Ch&#7913;c n&#259;ng tìm ki&#7871;m</p></li>
+</ul>
+<p align="left">Ph&#7847;n (2) là các table hi&#7879;n th&#7883; các record<ul>
+	<li>
+	<p align="left">Khi click vào m&#7897;t record trên table thì ph&#7847;n panel hi&#7879;n th&#7883; 
+	chi ti&#7871;t s&#7869; t&#7921; &#273;&#7897;ng m&#7903; r&#7897;ng và hi&#7879;n th&#7883; chi ti&#7871;t c&#7911;a record</p></li>
+</ul>
+<p align="left">Ph&#7847;n (3) là ph&#7847;n chi ti&#7871;t record, thêm xóa s&#7917;a.</p>
+<ul>
+	<li>
+	<p align="left">Ph&#7847;n panel hi&#7879;n th&#7883; chi ti&#7871;t có ch&#7913;c n&#259;ng phóng to, thu nh&#7887;.</p>
+	</li>
+	<li>
+	<p align="left">Khi b&#7845;m thêm m&#7899;i thì nó t&#7921; phóng to panel chi ti&#7871;t &#273;&#7875; thêm 
+	record m&#7899;i, không dùng c&#7917;a s&#7893; m&#7899;i.</p></li>
+</ul>
+<p align="left"><b>3. Ch&#7913;c n&#259;ng c&#7911;a panel thêm xóa s&#7917;a d&#432;&#7907;c ph&#7849;m</b></p>
+<p align="center">
+<img border="0" src="QuanLyDuocPhamCongDongJava_themXoaSuaDP.png" width="781" height="415"></p>
+<ul>
+	<li>Panel này chia làm 3 ph&#7847;n chính b&#7903;i BorderLayout, ph&#7847;n CENTER ch&#7913;a m&#7897;t 
+	splitPane cho phép ng&#432;&#7901;i dùng kéo dãn kích th&#432;&#7899;c c&#7911;a hai ph&#7847;n 2 bên.</li>
+	<li>butThemMoi và butCapNhat thay &#273;&#7893;i tr&#7841;ng tháy c&#7911;a các thành ph&#7847;n trong 
+	CENTER</li>
+	<li>Ph&#7847;n nh&#7853;p <b>SL hi&#7879;n có</b> &#273;&#432;&#7907;c disable &#273;i tránh vi&#7879;c ng&#432;&#7901;i dùng vô 
+	tình nh&#7845;n Tab và s&#7917;a n&#7897;i dung, &#273;&#7875; s&#7917;a n&#7897;i dung ng&#432;&#7901;i dùng c&#7847;n double click 
+	vào nó, khi m&#7845;t focus thì nó l&#7841;i tr&#7903; l&#7841;i tr&#7841;ng thái disabled</li>
+	<li>Không c&#7847;n nh&#7853;p mã DP, mã DP t&#7921; sinh và t&#259;ng lên.</li>
+</ul>
+<p><b>4. Ch&#7913;c n&#259;ng c&#7911;a panel thêm xóa s&#7917;a d&#432;&#7907;c ph&#7849;m</b></p>
+<p align="center">
+<img border="0" src="QuanLyDuocPhamCongDongJava_nhapXuatDP.png" width="844" height="631"></p>
+<ul>
+	<li>Ph&#7847;n chính c&#7911;a PanelNhapHang và PanelXuatHang là m&#7897;t splitPane, m&#7897;t bên 
+	ch&#7913;a PanelChonDuocPham, m&#7897;t bên ch&#7913;a thông tin nh&#7853;p vào cho record.</li>
+	<li>Bên ch&#7913;a thông tin record dùng GridLayout nhi&#7873;u dòng</li>
+	<li>Sau khi ch&#7885;n d&#432;&#7907;c ph&#7849;m thì b&#7855;t &#273;&#7847;u nh&#7853;p thông tin, n&#7871;u ch&#432;a ch&#7885;n DP s&#7869; 
+	có thông báo.</li>
+	<li>Mã phi&#7871;u t&#7921; sinh</li>
+	<li>M&#7863;c &#273;&#7883;nh ngày nh&#7853;p xu&#7845;t s&#7869; l&#7845;y ngày hi&#7879;n t&#7841;i c&#7911;a h&#7879; th&#7889;ng.</li>
+</ul>
+<p><b>5. Ch&#7913;c n&#259;ng c&#7911;a panel xu&#7845;t toa thu&#7889;c</b></p>
+<p align="center">
+<img border="0" src="QuanLyDuocPhamCongDongJava_xuatToaThuoc.png" width="910" height="375"></p>
+<ul>
+	<li>Panel này khác panel xu&#7845;t hàng &#7903; ch&#7895; nó có thêm danh sách d&#432;&#7907;c ph&#7849;m &#273;ã 
+	ch&#7885;n.</li>
+	<li>Sau khi ch&#7885;n DP &#7903; panelChonDuocPham thì s&#7869; xu&#7845;t hi&#7879;n button cho phép 
+	nh&#7853;p s&#7889; l&#432;&#7907;ng và thêm vào toa<br>
+	<img border="0" src="QuanLyDuocPhamCongDongJava_ChonDuocPhamToaThuoc2.gif" width="810" height="380"></li>
+	<li>Khi DP &#273;&#432;&#7907;c add vào toa thu&#7889;c thì s&#7869; t&#7921; &#273;&#7897;ng tính t&#7893;ng ti&#7873;n toa thu&#7889;c.</li>
+	<li>Sau khi &#273;ã ch&#7885;n DP vào toa thu&#7889;c, n&#7871;u click vào DP &#273;ã ch&#7885;n thì nút Lo&#7841;i 
+	b&#7887; DP s&#7869; hi&#7879;n ra cho phép lo&#7841;i b&#7887; t&#7845;t c&#7843; các DP &#273;ã ch&#7885;n.</li>
+</ul>
+<p><b>6 Ch&#7913;c n&#259;ng li&#7879;t kê và thông báo</b></p>
+<ul>
+	<li>C&#7917;a s&#7893; li&#7879;t kê danh sách m&#7863;t hàng có ch&#7913;c n&#259;ng li&#7879;t kê các s&#7843;n ph&#7849;m v&#7899;i 
+	s&#7889; l&#432;&#7907;ng t&#7891;n &lt;= s&#7889; l&#432;&#7907;ng d&#7921; tr&#7919; t&#7889;i thi&#7875;u</li>
+	<li>Thông báo m&#7863;t hàng s&#7889; l&#432;&#7907;ng t&#7891;n &lt;= s&#7889; l&#432;&#7907;ng d&#7921; tr&#7919; t&#7889;i thi&#7875;u khi xu&#7845;t 
+	m&#7863;t hàng</li>
+</ul>
+<p><b><font size="6">Phân tích v&#7873; c&#7845;u trúc d&#7919; li&#7879;u cho ph&#7847;n m&#7873;m:</font></b></p>
+<p><b>1. Lo&#7841;i d&#7919; li&#7879;u</b></p>
+<ul>
+	<li>D&#7919; li&#7879;u d&#7841;ng file, l&#432;u object</li>
+</ul>
+<p><b>2. Các file d&#7919; li&#7879;u ch&#432;&#417;ng trình</b></p>
+<ul>
+	<li>_DuLieuDuocPham.data: D&#7919; li&#7879;u t&#7845;t c&#7843; các m&#7863;t hàng</li>
+	<li>&nbsp;_ApplicationSetting.set: Thi&#7871;t l&#7853;p c&#7911;a ch&#432;&#417;ng trình</li>
+	<li>_NhapHangSetting.set, _ToaThuocSetting.set, _XuatHangSetting.set: Giá 
+	tr&#7883; ID t&#7921; t&#259;ng hi&#7879;n t&#7841;i.</li>
+	<li>DuLieuNhapHang<i>XXXXXX</i>.data, DuLieuXuatHang<i>XXXX</i>.data, 
+	DuLieuToaThuoc<i>XXXX</i>.data: D&#7919; li&#7879;u theo tháng c&#7911;a vi&#7879;c nh&#7853;p hàng, xu&#7845;t 
+	hàng, xu&#7845;t toa thu&#7889;c.</li>
+</ul>
+<p><b>3. D&#7919; li&#7879;u m&#7863;t hàng</b></p>
+<ul>
+	<li>Bao g&#7891;m tên, nhà s&#7843;n xu&#7845;t, &#273;&#417;n v&#7883; tính, ..., giá nh&#7853;p, giá bán.</li>
+	<li>Giá nh&#7853;p, giá bán &#273;&#432;&#7907;c thay &#273;&#7893;i m&#7895;i l&#7847;n nh&#7853;p hàng m&#7899;i bên c&#7917;a s&#7893; nh&#7853;p 
+	hàng.</li>
+	<li>Các thao tác nh&#7853;p hàng, xu&#7845;t hàng, xu&#7845;t hóa &#273;&#417;n làm thay &#273;&#7893;i s&#7889; l&#432;&#7907;ng 
+	c&#7911;a m&#7863;t hàng s&#7869; &#273;&#432;&#7907;c c&#7853;p nh&#7853;t và t&#7921; &#273;&#7897;ng l&#432;u l&#7841;i.</li>
+</ul>
+<p><b>3. Tính an toàn d&#7919; li&#7879;u</b></p>
+<ul>
+	<li>Khi b&#7855;t &#273;&#7847;u l&#432;u tr&#7919; s&#7869; &#273;&#7893;i tên file d&#7919; li&#7879;u &#273;ã l&#432;u thành m&#7897;t file t&#7841;m 
+	&#273;ánh s&#7889; l&#361;y ti&#7871;n (<b>N&#7871;u &#273;ã có file t&#7841;m s&#7869; t&#7841;o file m&#7899;i</b>), khi l&#432;u thành 
+	công file m&#7899;i thì file t&#7841;m &#273;&#432;&#7907;c xóa &#273;i, n&#7871;u trong quá trình ghi file b&#7883; l&#7895;i 
+	thì s&#7869; xóa file &#273;ang ghi, file t&#7841;m &#273;&#7921;a s&#7917;a tên l&#7841;i thành file d&#7919; li&#7879;u ban 
+	&#273;&#7847;u (<font color="#FF0000"><b>Logic này b&#7883; sai, có th&#7875; x&#7843;y ra tr&#432;&#7901;ng h&#7907;p m&#7845;t 
+	tính toàn v&#7865;n d&#7919; li&#7879;u</b></font>)</li>
+</ul>
+<p>&nbsp;</p>
+<p><b><font size="6">Phân tích v&#7873; c&#7845;u trúc class và data flow:</font></b></p>
+<p><b>1. Các package</b></p>
+<ul>
+	<li>ui: Các class v&#7873; giao di&#7879;n</li>
+	<li>unit: Các class cho t&#7915;ng item</li>
+	<li>unit.data: Các unit ch&#7913;a d&#7919; li&#7879;u dành cho vi&#7879;c l&#432;u tr&#7919;</li>
+	<li>unit.manager: Các class qu&#7843;n lý vi&#7879;c t&#432;&#417;ng tác x&#7917; lý d&#7919; li&#7879;u, thêm xóa 
+	s&#7917;a ....</li>
+	<li>unit.setting: Các class dành cho vi&#7879;c l&#432;u tr&#7919; setting.</li>
+	<li>worker: Các class làm nhi&#7879;m v&#7909; x&#7917; lý các tác v&#7909; ngoài logic c&#7911;a ch&#432;&#417;ng 
+	trình nh&#432; là L&#432;u d&#7919; li&#7879;u, L&#7845;y ngày tháng n&#259;m c&#7911;a h&#7879; th&#7889;ng, Chuy&#7875;n &#273;&#7893;i d&#7919; 
+	li&#7879;u string t&#7915; có d&#7845;u sang không d&#7845;u, Ghi log l&#7895;i ch&#432;&#417;ng trình, clipboard, 
+	icon, ...</li>
+</ul>
+<p><b>2. Các &#273;&#7889;i t&#432;&#7907;ng chính trong ch&#432;&#417;ng trình</b></p>
+<ul>
+	<li>GlobalData: &#272;&#7889;i t&#432;&#7907;ng l&#432;u tr&#7919; d&#7919; li&#7879;u toàn c&#7909;c, &#273;óng vai trò là trung 
+	tâm d&#7919; li&#7879;u cho ch&#432;&#417;ng trình</li>
+	<li><i>XXXX</i>DataManager: Qu&#7843;n lý v&#7845;n &#273;&#7873; liên quan &#273;&#7871;n d&#7919; li&#7879;u c&#7911;a <i>XXXX</i> 
+	nh&#432; tên file, t&#7841;o m&#7899;i, thêm, xóa, s&#7917;a, l&#432;u, tìm ki&#7871;m, ki&#7875;m tra trùng l&#7863;p, 
+	...</li>
+</ul>
+<p><b>2. Data flow, ví d&#7909;</b></p>
+<ul>
+	<li>PanelDanhSachHangLuuTru yêu c&#7847;u d&#7919; li&#7879;u v&#7873; các m&#7863;t hàng s&#7869; g&#7885;i <b>
+	DuocPhamDataManager.getDanhSachDuocPham(select)</b> &#273;&#7875; l&#7845;y d&#7919; li&#7879;u, <b>
+	DuocPhamDataManager.getDanhSachDuocPham(select)</b> s&#7869; g&#7885;i &#273;&#7889;i t&#432;&#7907;ng 
+	GlobalData yêu c&#7847;u d&#7919; li&#7879;u các m&#7863;t hàng <b>GlobalData.getDuocPhamData()</b> 
+	r&#7891;i l&#7885;c theo &#273;i&#7873;u ki&#7879;n select &#273;&#7875; tr&#7843; v&#7873; danh sách theo yêu c&#7847;u.</li>
+	<li><b>GlobalData.getDuocPhamData()</b> g&#7885;i &#273;&#7871;n <b>
+	DuocPhamDataManager.loadDuocPhamData()</b> l&#7845;y d&#7919; li&#7879;u t&#7915; file lên gán vào 
+	bi&#7871;n static <b>DuocPhamData duocPhamData;</b> cho nh&#7919;ng l&#7847;n <b>
+	GlobalData.getDuocPhamData()</b> sau.</li>
+	<li><b>DuocPhamDataManager.loadDuocPhamData()</b> g&#7885;i <b>
+	IOMaster.readObject(FILEPATH);</b> &#273;&#7875; &#273;&#7885;c &#273;&#7885;c d&#7919; li&#7879;u t&#7915; file <b>FILEPATH
+	</b>lên.</li>
+</ul>
+<p><font size="6"><b>Log</b></font></p>
+<ul>
+	<li>Chú ý khi nh&#7853;p m&#7863;t hàng m&#7899;i, do thi&#7871;t k&#7871; ban &#273;&#7847;u thi&#7871;u ph&#7847;n quy cách s&#7843;n 
+	ph&#7849;m nên &#273;&#7875; nh&#7853;p quy cách cho s&#7843;n ph&#7849;m thì ph&#7843;i nh&#7853;p sau tên s&#7843;n ph&#7849;m theo 
+	c&#7845;u trúc <b>Tên SP | Quy cách</b>, ví d&#7909; Panadol <b>Extra 500mg | H&#7897;p 50 
+	viên</b></li>
+</ul>
+
+<p><font size="6"><b>Log</b></font></p>
+<ul>
+	<li>Trong quá trình ch&#7841;y, ch&#432;&#417;ng trình g&#7863;p l&#7895;i s&#7869; &#273;&#432;&#7907;c log vào th&#432; m&#7909;c 
+	LoiPhanMem bên c&#7841;nh ch&#432;&#417;ng trình</li>
+	<li>N&#7897;i dung log là excption trace</li>
+</ul>
+
+</body>
+
+</html>
